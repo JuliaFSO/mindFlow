@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindFlow - Immerse in Stories</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <a href="#home" class="logo-link">mindFlow</a>
+      </div>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <!-- Headline -->
+      <section class="section headline" id="home">
+        <div class="headline-container">
+          <div class="headline-text">
+            <h2>Welcome to MindFlow</h2>
+            <h1>Discover, connect, and grow within a community of passionate readers.</h1>
+            <p>
+              Join our community of book lovers who seek peace and inspiration through the power of literature.
+            </p>
+            <div class="button-container">
+              <a href="#contact">
+                <button class="button-transp">Join Now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <div class="about-us-section" id="about-us">
+        <section class="section about-us">
+          <div class="about-us-container">
+            <div class="about-us-image">
+              <img src="image.jpg" alt="About us Image">
+            </div>
+            <div class="about-us-text">
+              <h1>ABOUT US</h1>
+              <h3>DISCOVER OUR STORY</h3>
+              <p>At MindFlow, we are passionate about the transformative impact of books. Our journey began with a simple love for reading, and has evolved into a thriving community dedicated to sharing the joy of literature. Join us as we explore the boundless world of books and the profound influence they have on our lives.</p>
+              <div class="button-container">
+                <a href="#contact">
+                  <button class="button-transp">Get In Touch</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Features -->
+      <section class="section features" id="features">
+        <h1>FEATURES</h1>
+        <div class="features-container">
+          <div class="card">
+            <h3>Book Recommendations</h3>
+            <p>Seeking your next captivating read? Let our knowledgeable team provide personalized book recommendations tailored to your preferences and interests.</p>
+          </div>
+          <div class="card">
+            <h3>Virtual Book Club</h3>
+            <p>Immerse yourself in lively discussions and engaging literary analyses by joining our virtual book club. Connect with fellow book enthusiasts and broaden your literary horizons.</p>
+          </div>
+          <div class="card">
+            <h3>Author Spotlights</h3>
+            <p>Explore exclusive insights into the minds of renowned authors through our curated author spotlights. Gain a deeper understanding of the creative process behind your favorite books.</p>
+          </div>
+          <div class="card">
+            <h3>Mindfulness Workshops</h3>
+            <p>Embark on a journey of self-discovery and inner peace with our mindfulness workshops. Delve into the intersection of mindfulness and literature to enhance your reading experience.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="section contact" id="contact">
+        <h1>CONTACT</h1>
+        <div class="contact-container">
+          <div class="contact-form">
+            <h2>We'd Love to Hear From You</h2>
+            <form id="contactForm">
+              <div class="form-row">
+                <input type="text" id="firstName" placeholder="First Name *"/>
+                <span id="firstNameError" class="error-message"></span>
+
+                <input type="text" id="lastName" placeholder="Last Name *"/>
+                <span id="lastNameError" class="error-message"></span>
+
+                <input type="email" id="email" placeholder="Email *"/>
+                <span id="emailError" class="error-message"></span>
+
+                <input type="text" id="subject" placeholder="Subject"/>
+                <span id="subjectError" class="error-message"></span>
+
+                <textarea id="message" placeholder="Leave us a message..."></textarea>
+                <span id="messageError" class="error-message"></span>
+              </div>
+              <button class="button-form-black" type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="mailing-list">
+            <address>
+              500 Bookworm Blvd,<br/>
+              Library Town, LT 12345<br/>
+              info@mindflowbooks.com<br/>
+              123-456-7890
+            </address>
+            <h2>JOIN OUR MAILING LIST</h2>
+            <form id="mailingListForm">
+              <input type="email" id="mailingListEmail" placeholder="Enter your email here *"/>
+              <span id="mailingListEmailError" class="error-message"></span>
+              <div class="checkbox-container">
+                <div class="checkbox-row">
+                  <input type="checkbox" id="subscribe" />
+                  <label for="subscribe">Yes, subscribe me to your newsletter.</label>
+                </div>
+                <span id="subscribeError" class="error-message">Please accept the terms to continue.</span>
+              </div>
+              <button class="button-form-black" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 MindFlow. All rights reserved.</p>
+      </footer>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

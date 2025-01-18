@@ -1,0 +1,154 @@
+/* Contact Styles */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.contact-form,
+.mailing-list {
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form form,
+.mailing-list form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input{
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+}
+
+.button-form-black {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  width: 50%;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button-form-black:hover {
+  color: #000000;
+  cursor: pointer;
+  background-color: #00000000;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mailing-list form input[type="email"] {
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+  box-sizing: border-box;
+}
+
+.mailing-list address {
+  text-align: left;
+  font-style: normal;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.checkbox-container {
+  display: inline-block;
+}
+
+.checkbox-row{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+/* Error messages styles */
+input.invalid,
+textarea.invalid {
+  border-color: red;
+}
+
+input:focus,
+textarea:focus {
+  border-color: black;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  opacity: 0;
+}
+
+.error-message.show {
+  display: block;
+  opacity: 1;
+}
+
+#subscribeError {
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .mailing-list form input[type="email"] {
+    width: 100%;
+  }
+}

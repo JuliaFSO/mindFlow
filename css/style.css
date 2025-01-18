@@ -1,0 +1,98 @@
+@import url('header.css');
+@import url('headline.css');
+@import url('about_us.css');
+@import url('features.css');
+@import url('contact.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(260deg, #3eafe4, #ffffff, #fdd8f4);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section {
+  flex: 1 0 auto;
+  padding: 2rem;
+  padding-top: calc(5rem + 1rem);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button-transp {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00000000;
+  color: #000000;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.button-transp:hover {
+  color: #fff;
+  background-color: #000000;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 3rem;
+  margin-top: 5rem;
+  color: #000;
+  border-top: 1px solid #000;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .section {
+    padding-top: calc(5rem + 1rem);
+  }
+}
