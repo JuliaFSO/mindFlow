@@ -3,9 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30rem;
-  position: relative;
-  padding-bottom: 1rem;
 }
 
 .headline-text {
@@ -20,9 +17,6 @@
 @media (max-width: 768px) {
   .headline-container {
     flex-direction: column;
-    margin-top: 10rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
   }
 
   .headline-text,

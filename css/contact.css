@@ -3,17 +3,13 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 2rem;
-  margin-bottom: 3rem;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-form,
 .mailing-list {
   padding: 2rem;
   text-align: left;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .contact-form form,
@@ -150,5 +146,19 @@ textarea:focus {
 
   .mailing-list form input[type="email"] {
     width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-container {
+    margin-bottom: 2rem;
+  }
+
+  .button-form-black {
+    width: 100%;
+  }
+
+  .checkbox-row{
+    white-space: normal;
   }
 }
