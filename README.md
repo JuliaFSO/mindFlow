@@ -54,10 +54,3 @@ MindFlow includes built-in form validation using JavaScript to ensure all user i
 
 - **Contact Form**: Ensures that fields like First Name, Last Name, Email, and Message are filled out correctly.
 - **Mailing List**: Verifies that the email address is valid and the user agrees to subscribe.
-
-# 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
