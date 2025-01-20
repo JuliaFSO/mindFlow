@@ -26,7 +26,7 @@ You can see the live demo of MindFlow on [this link](https://mindflow-bay.vercel
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/mindflow.git
+git clone https://github.com/JuliaFSO/mindFlow.git
 ```
 
 Navigate to the project directory:
